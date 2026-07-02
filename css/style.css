@@ -961,3 +961,16 @@ textarea.form-control {
     border-color:transparent;
 
 }
+
+.mapa-container {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.local-info h4 {
+    font-weight: 700;
+}
+
+#localizacao {
+    scroll-margin-top: 100px;
+}
