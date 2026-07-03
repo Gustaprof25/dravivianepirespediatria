@@ -1298,3 +1298,101 @@ text-align:center;
     }
 
 }
+
+/* ==========================
+   COMO FUNCIONA
+========================== */
+
+.processo-section{
+
+    background:#f8fafc;
+
+}
+
+.process-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+    position:relative;
+
+}
+
+.process-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.process-icon{
+
+    width:85px;
+
+    height:85px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#eef4ff;
+
+    color:#4a6cf7;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+}
+
+.process-number{
+
+    display:inline-block;
+
+    color:#4a6cf7;
+
+    font-weight:700;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+.process-card h4{
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.process-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+    margin-bottom:0;
+
+}
