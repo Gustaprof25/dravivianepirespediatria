@@ -1901,3 +1901,58 @@ text-align:center;
     }
 
 }
+
+.online-section{
+    background:#faf8f6;
+}
+
+.online-section h2{
+    color:#8B5E3C;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.online-section .lead{
+    color:#5d4c41;
+    font-size:1.15rem;
+    margin-bottom:20px;
+}
+
+.online-benefits{
+    margin-top:30px;
+}
+
+.benefit-item{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:18px;
+    background:#fff;
+    padding:15px 18px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+    transition:.3s;
+}
+
+.benefit-item:hover{
+    transform:translateX(8px);
+}
+
+.benefit-item i{
+    color:#8B5E3C;
+    font-size:1.35rem;
+}
+
+.benefit-item span{
+    color:#555;
+    font-weight:500;
+}
+
+.online-card img{
+    border-radius:25px;
+    transition:.4s;
+}
+
+.online-card img:hover{
+    transform:scale(1.02);
+}
